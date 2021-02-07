@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanalei&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+body {
+    background-color: #11151C;
+    overflow: hidden;
+    color: #F1F2EB;
+    text-align: center;
+    font-family: 'Pangolin', cursive;
+}
+
+img {
+    width: 60vw;
+    height: 40vh;
+    margin: 20px 0;
+    border: 5px dashed #4DAA57;
+}
+
+@media (min-width: 100px) {
+    img {
+        width: 40vw;
+        height: 40vh;
+    }
+}
+
+.container h1 {
+    font-family: 'Hanalei', cursive, sans-serif;
+    letter-spacing: 5px;
+    font-weight: 700;
+    color: #4DAA57;
+}
+
+span {
+    color: #4DAA57;
+}
+
+#guess-btn {
+    border-color: #4DAA57;
+    background-color: #11151C;
+    color: #4DAA57;
+}
+
+#guess-btn:hover {
+    border-color: #4DAA57;
+    background-color: #F1F2EB;
+    color: #4DAA57;
+}
+
+.instruction {
+    font-size: larger;
+}
+
+#guess-input {
+    padding: 0 20px;
+    margin: 0 20px;
+    width: 40%;
+}
